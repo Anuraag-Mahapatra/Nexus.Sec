@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom animation for page loads */
+  --animate-fade-in: fade-in 0.8s ease-out forwards;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Custom v4 utility for sleek, reusable UI components */
+@utility glass-panel {
+  background-color: rgba(23, 23, 23, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+@layer base {
+  body {
+    @apply bg-[#0a0a0a] text-neutral-100 antialiased;
+  }
+}
