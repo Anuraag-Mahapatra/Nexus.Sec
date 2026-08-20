@@ -51,3 +51,5 @@ npm install
 npm run dev
 ```
 ***Navigate to http://localhost:5173 in your browser to access the network interface.***
+
+***To see the Frontend design only visit my repo's GitHub Page: ```https://anuraag-mahapatra.github.io/``` ***
